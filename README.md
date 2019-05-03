@@ -39,7 +39,7 @@ MT-DNN Sentiment | https://drive.google.com/open?id=1-ld8_WpdQVDjPeYhb3AK8XYLGlZ
 ## Reading Comprehension
 ### SQUAD 1.1
 Rank | Name     |      Link      | Training script|
--------|-------|----------|:--------------:|------------:|
+-------|-------|----------|:--------------:|
 49 | BiDaf | https://s3-us-west-2.amazonaws.com/allennlp/models/bidaf-model-2017.09.15-charpad.tar.gz | https://github.com/allenai/allennlp |
 
 
