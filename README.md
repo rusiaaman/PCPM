@@ -28,6 +28,9 @@ GPT-2 | https://github.com/openai/gpt-2/blob/master/download_model.py | [`webtex
 Name     |      Link      |  Trained On | Training script|
 -------|----------|:--------------:|------------:|
 BERT | https://github.com/google-research/bert/ | [booksCorpus](booksCorpus)+[English Wikipedia](english-wikipedia) | https://github.com/google-research/bert/ (tf) https://github.com/huggingface/pytorch-pretrained-BERT (pytorch) |
+MT-DNN |   https://mrc.blob.core.windows.net/mt-dnn-model/mt_dnn_base.pt (https://github.com/namisan/mt-dnn/blob/master/download.sh)| [glue](glue)  | https://github.com/namisan/mt-dnn |
+MT-DNN Sentiment | https://drive.google.com/open?id=1-ld8_WpdQVDjPeYhb3AK8XYLGlZEbs-l | [SST](#sst) | https://github.com/namisan/mt-dnn |
+
 
 # Voice ML
 Name     |      Link      |  Trained On | Training script | 
@@ -63,6 +66,14 @@ https://en.wikipedia.org/wiki/Wikipedia:Database_download#English-language_Wikip
 ### BooksCorpus
 https://yknzhu.wixsite.com/mbweb
 https://github.com/soskek/bookcorpus
+
+## Sentiment
+### SST
+Stanford sentiment tree bank https://nlp.stanford.edu/sentiment/index.html. One of the [Glue](#glue) tasks.
+
+## Glue
+
+Glue is a collection of resources for benchmarking natural language systems. https://gluebenchmark.com/ Contains datasets on natural language inference, sentiment classification, paraphrase detection, similarity matching and lingusitc acceptability. 
 
 ## Speech to text data
 ### fisher
