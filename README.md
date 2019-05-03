@@ -13,6 +13,7 @@ Models listed are curated for either pytorch or tensorflow because of their wide
 * [Datasets](#datasets)
 * [Hall of Shame](#hall-of-shame)
 * [Non english models](#non-english)
+* [Other Collections](#other-collections)
 
 
 # Text ML
@@ -29,7 +30,17 @@ Name     |      Link      |  Trained On | Training script|
 -------|----------|:--------------:|------------:|
 BERT | https://github.com/google-research/bert/ | [booksCorpus](booksCorpus)+[English Wikipedia](english-wikipedia) | https://github.com/google-research/bert/ (tf) https://github.com/huggingface/pytorch-pretrained-BERT (pytorch) |
 MT-DNN |   https://mrc.blob.core.windows.net/mt-dnn-model/mt_dnn_base.pt (https://github.com/namisan/mt-dnn/blob/master/download.sh)| [glue](glue)  | https://github.com/namisan/mt-dnn |
+
+## Sentiment
+Name     |      Link      |  Trained On | Training script|
+-------|----------|:--------------:|------------:|
 MT-DNN Sentiment | https://drive.google.com/open?id=1-ld8_WpdQVDjPeYhb3AK8XYLGlZEbs-l | [SST](#sst) | https://github.com/namisan/mt-dnn |
+
+## Reading Comprehension
+### SQUAD 1.1
+Rank | Name     |      Link      | Training script|
+-------|-------|----------|:--------------:|------------:|
+49 | BiDaf | https://s3-us-west-2.amazonaws.com/allennlp/models/bidaf-model-2017.09.15-charpad.tar.gz | https://github.com/allenai/allennlp |
 
 
 # Voice ML
@@ -98,7 +109,13 @@ High quality research which doesn't include pretrained models for public use.
 
 # Non English
 
-# Honorable mentions
+# Other Collections
+
+## Allen NLP
+Built on pytorch, allen nlp has produced SOTA models and open sourced them.
+https://github.com/allenai/allennlp/blob/master/MODELS.md
+
+They have neat interactive demo on various tasks at https://demo.allennlp.org/
 
 ## GluonNLP
 Based on MXNet this library has extensive list of pretrained models on various tasks in NLP.
