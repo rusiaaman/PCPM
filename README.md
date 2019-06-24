@@ -22,6 +22,7 @@ Models listed are curated for either pytorch or tensorflow because of their wide
 
 Name     |      Link      |  Trained On | Training script|
 -------|----------|:--------------:|------------:|
+XLnet | https://github.com/zihangdai/xlnet/ | [`booksCorpus`](booksCorpus)+[`English Wikipedia`](english-wikipedia)+[`Giga5`](https://catalog.ldc.upenn.edu/LDC2011T07)+[`ClueWeb 2012-B`](https://lemurproject.org/clueweb12/)+[`Common Crawl`](#common-crawl) | https://github.com/zihangdai/xlnet/
 Transformer-xl |  https://github.com/kimiyoung/transformer-xl/tree/master/tf#obtain-and-evaluate-pretrained-sota-models | [`enwik8`](#enwik8), [`lm1b`](#lm1b), [`wt103`](#wt103), [`text8`](#text8) |  https://github.com/kimiyoung/transformer-xl |
 GPT-2 | https://github.com/openai/gpt-2/blob/master/download_model.py | [`webtext`](#webtext) | https://github.com/nshepperd/gpt-2/ |
 
@@ -54,6 +55,8 @@ speech-to-text-wavenet | https://github.com/buriburisuri/speech-to-text-wavenet#
 Datasets referenced in this document
 
 ## Language Model data
+### Common crawl
+http://commoncrawl.org/
 ### enwik8
 Wikipedia data dump (Large text compression benchmark)
 http://mattmahoney.net/dc/textdata.html
