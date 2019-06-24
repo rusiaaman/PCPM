@@ -9,7 +9,7 @@ Models listed are curated for either pytorch or tensorflow because of their wide
 ## Contents
 
 * [Text ML models](#text-ml)
-* [Voice ML models](#voice-ml)
+* [Speech to text models](#speech-to-text)
 * [Datasets](#datasets)
 * [Hall of Shame](#hall-of-shame)
 * [Non english models](#non-english)
