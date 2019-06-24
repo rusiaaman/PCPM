@@ -43,10 +43,12 @@ Rank | Name     |      Link      | Training script|
 49 | BiDaf | https://s3-us-west-2.amazonaws.com/allennlp/models/bidaf-model-2017.09.15-charpad.tar.gz | https://github.com/allenai/allennlp |
 
 
-# Voice ML
+# Speech to Text
 Name     |      Link      |  Trained On | Training script | 
 -------|----------|:--------------:|------------:|
+Deepspeech2 pytorch | https://github.com/SeanNaren/deepspeech.pytorch/issues/299#issuecomment-394658265 | [librispeech](#librispeech) | https://github.com/SeanNaren/deepspeech.pytorch
 Deepspeech | https://github.com/mozilla/DeepSpeech#getting-the-pre-trained-model | [mozilla-common-voice](#mozilla-common-voice), [librispeech](#librispeech), [fisher](#fisher), [switchboard](#switchboard) | https://github.com/mozilla/DeepSpeech
+speech-to-text-wavenet | https://github.com/buriburisuri/speech-to-text-wavenet#pre-trained-models | [vctk](#vctk) | https://github.com/buriburisuri/speech-to-text-wavenet
 
 # Datasets
 Datasets referenced in this document
@@ -98,6 +100,9 @@ https://ieeexplore.ieee.org/document/225858/
 
 ### Mozilla common voice
 https://github.com/mozilla/voice-web
+
+### vctk
+https://datashare.is.ed.ac.uk/handle/10283/2651
 
 # Hall of Shame
 
