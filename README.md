@@ -22,11 +22,16 @@ Models listed are curated for either pytorch or tensorflow because of their wide
 
 Name     |      Link      |  Trained On | Training script|
 -------|----------|:--------------:|------------:|
-XLnet | https://github.com/zihangdai/xlnet/#released-models | [`booksCorpus`](booksCorpus)+[`English Wikipedia`](english-wikipedia)+[`Giga5`](https://catalog.ldc.upenn.edu/LDC2011T07)+[`ClueWeb 2012-B`](https://lemurproject.org/clueweb12/)+[`Common Crawl`](#common-crawl) | https://github.com/zihangdai/xlnet/
 Transformer-xl |  https://github.com/kimiyoung/transformer-xl/tree/master/tf#obtain-and-evaluate-pretrained-sota-models | [`enwik8`](#enwik8), [`lm1b`](#lm1b), [`wt103`](#wt103), [`text8`](#text8) |  https://github.com/kimiyoung/transformer-xl |
 GPT-2 | https://github.com/openai/gpt-2/blob/master/download_model.py | [`webtext`](#webtext) | https://github.com/nshepperd/gpt-2/ |
 
-## BERT
+## Permutation lanugage modelling - XLNet
+
+Name     |      Link      |  Trained On | Training script|
+-------|----------|:--------------:|------------:|
+XLnet | https://github.com/zihangdai/xlnet/#released-models | [`booksCorpus`](booksCorpus)+[`English Wikipedia`](english-wikipedia)+[`Giga5`](https://catalog.ldc.upenn.edu/LDC2011T07)+[`ClueWeb 2012-B`](https://lemurproject.org/clueweb12/)+[`Common Crawl`](#common-crawl) | https://github.com/zihangdai/xlnet/
+
+## Masked Language Modelling - Bert
 Name     |      Link      |  Trained On | Training script|
 -------|----------|:--------------:|------------:|
 BERT | https://github.com/google-research/bert/ | [booksCorpus](booksCorpus)+[English Wikipedia](english-wikipedia) | https://github.com/google-research/bert/ (tf) https://github.com/huggingface/pytorch-pretrained-BERT (pytorch) |
