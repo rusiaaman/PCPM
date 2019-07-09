@@ -53,6 +53,7 @@ Rank | Name     |      Link      | Training script|
 Name     |      Link      |  Trained On | Training script | 
 -------|----------|:--------------:|------------:|
 Espnet | https://github.com/espnet/espnet#asr-results | [librispeech](#librispeech),Aishell,HKUST,TEDLIUM2 | https://github.com/espnet/espnet
+wav2letter | https://talonvoice.com/research/ | [librispeech](#librispeech) | https://github.com/facebookresearch/wav2letter
 Deepspeech2 pytorch | https://github.com/SeanNaren/deepspeech.pytorch/issues/299#issuecomment-394658265 | [librispeech](#librispeech) | https://github.com/SeanNaren/deepspeech.pytorch
 Deepspeech | https://github.com/mozilla/DeepSpeech#getting-the-pre-trained-model | [mozilla-common-voice](#mozilla-common-voice), [librispeech](#librispeech), [fisher](#fisher), [switchboard](#switchboard) | https://github.com/mozilla/DeepSpeech
 speech-to-text-wavenet | https://github.com/buriburisuri/speech-to-text-wavenet#pre-trained-models | [vctk](#vctk) | https://github.com/buriburisuri/speech-to-text-wavenet
@@ -115,11 +116,10 @@ https://datashare.is.ed.ac.uk/handle/10283/2651
 
 # Hall of Shame
 
-High quality research which doesn't include pretrained models for public use.
+High quality research which doesn't include pretrained models and/or code for public use.
 
-- **wav2letter** https://github.com/facebookresearch/wav2letter (https://github.com/facebookresearch/wav2letter/issues/130)
-
-
+- **KERMIT** https://arxiv.org/abs/1906.01604 
+   Generative Insertion-Based Modeling for Sequences. No code.
 
 # Non English
 
