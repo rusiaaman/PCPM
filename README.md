@@ -1,6 +1,6 @@
 # PCPM
 
-**P**retrained **C**ollection of **P**retrained **M**odels. Links to pretrained models in NLP and voice with training script. 
+**P**resenting **C**orpus of **P**retrained **M**odels. Links to pretrained models in NLP and voice with training script. 
 
 With rapid progress in NLP it is becoming easier to bootstrap a machine learning project involving text. Instead of starting with a base code, one can now start with a base pretrained model and within a few iterations get SOTA performance. This repository is made with the view that pretrained models minimizes collective human effort and cost of resources, thus accelerating development in the field.
 
