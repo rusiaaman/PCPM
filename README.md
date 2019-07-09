@@ -47,6 +47,7 @@ Rank | Name     |      Link      | Training script|
 # Speech to Text
 Name     |      Link      |  Trained On | Training script | 
 -------|----------|:--------------:|------------:|
+Espnet | https://github.com/espnet/espnet#asr-results | [librispeech](#librispeech),Aishell,HKUST,TEDLIUM2 | https://github.com/espnet/espnet
 Deepspeech2 pytorch | https://github.com/SeanNaren/deepspeech.pytorch/issues/299#issuecomment-394658265 | [librispeech](#librispeech) | https://github.com/SeanNaren/deepspeech.pytorch
 Deepspeech | https://github.com/mozilla/DeepSpeech#getting-the-pre-trained-model | [mozilla-common-voice](#mozilla-common-voice), [librispeech](#librispeech), [fisher](#fisher), [switchboard](#switchboard) | https://github.com/mozilla/DeepSpeech
 speech-to-text-wavenet | https://github.com/buriburisuri/speech-to-text-wavenet#pre-trained-models | [vctk](#vctk) | https://github.com/buriburisuri/speech-to-text-wavenet
