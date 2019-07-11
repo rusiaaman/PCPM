@@ -52,8 +52,9 @@ Rank | Name     |      Link      | Training script|
 # Speech to Text
 Name     |      Link      |  Trained On | Training script | 
 -------|----------|:--------------:|------------:|
+OpenSeq2Seq-Jasper | https://nvidia.github.io/OpenSeq2Seq/html/speech-recognition.html#models | [librispeech](#librispeech) | https://github.com/NVIDIA/OpenSeq2Seq
 Espnet | https://github.com/espnet/espnet#asr-results | [librispeech](#librispeech),Aishell,HKUST,TEDLIUM2 | https://github.com/espnet/espnet
-wav2letter | https://talonvoice.com/research/ | [librispeech](#librispeech) | https://github.com/facebookresearch/wav2letter
+wav2letter++ | https://talonvoice.com/research/ | [librispeech](#librispeech) | https://github.com/facebookresearch/wav2letter
 Deepspeech2 pytorch | https://github.com/SeanNaren/deepspeech.pytorch/issues/299#issuecomment-394658265 | [librispeech](#librispeech) | https://github.com/SeanNaren/deepspeech.pytorch
 Deepspeech | https://github.com/mozilla/DeepSpeech#getting-the-pre-trained-model | [mozilla-common-voice](#mozilla-common-voice), [librispeech](#librispeech), [fisher](#fisher), [switchboard](#switchboard) | https://github.com/mozilla/DeepSpeech
 speech-to-text-wavenet | https://github.com/buriburisuri/speech-to-text-wavenet#pre-trained-models | [vctk](#vctk) | https://github.com/buriburisuri/speech-to-text-wavenet
