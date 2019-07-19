@@ -79,7 +79,7 @@ https://www.statmt.org/lm-benchmark/
 
 ### wt103
 Wikitext 103 
-https://www.salesforce.com/products/einstein/ai-research/the-wikitext-dependency-language-modeling-dataset/
+https://blog.einstein.ai/the-wikitext-long-term-dependency-language-modeling-dataset/
 
 ### webtext
 Original dataset not released by the authors. An open source collection is available at https://skylion007.github.io/OpenWebTextCorpus/
