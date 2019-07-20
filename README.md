@@ -24,6 +24,7 @@ Name     |      Link      |  Trained On | Training script|
 -------|----------|:--------------:|------------:|
 Transformer-xl |  https://github.com/kimiyoung/transformer-xl/tree/master/tf#obtain-and-evaluate-pretrained-sota-models | [`enwik8`](#enwik8), [`lm1b`](#lm1b), [`wt103`](#wt103), [`text8`](#text8) |  https://github.com/kimiyoung/transformer-xl |
 GPT-2 | https://github.com/openai/gpt-2/blob/master/download_model.py | [`webtext`](#webtext) | https://github.com/nshepperd/gpt-2/ |
+Adaptive Inputs (fairseq) | https://github.com/pytorch/fairseq/blob/master/examples/language_model/README.md#pre-trained-models | [`lm1b`](#lm1b) | https://github.com/pytorch/fairseq/blob/master/examples/language_model/README.md
 
 ## Permutation lanugage modelling - XLNet
 
@@ -36,6 +37,11 @@ Name     |      Link      |  Trained On | Training script|
 -------|----------|:--------------:|------------:|
 BERT | https://github.com/google-research/bert/ | [booksCorpus](booksCorpus)+[English Wikipedia](english-wikipedia) | https://github.com/google-research/bert/ (tf) https://github.com/huggingface/pytorch-pretrained-BERT (pytorch) |
 MT-DNN |   https://mrc.blob.core.windows.net/mt-dnn-model/mt_dnn_base.pt (https://github.com/namisan/mt-dnn/blob/master/download.sh)| [glue](glue)  | https://github.com/namisan/mt-dnn |
+
+## Machine Translation
+Name     |      Link      |  Trained On | Training script|
+-------|----------|:--------------:|------------:|
+Fairseq (multiple models) | https://github.com/pytorch/fairseq/blob/master/examples/translation/README.md#pre-trained-models | WMT14 English-French, WMT16 English-German | https://github.com/pytorch/fairseq/blob/master/examples/translation/README.md
 
 ## Sentiment
 Name     |      Link      |  Trained On | Training script|
