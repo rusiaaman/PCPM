@@ -6,7 +6,7 @@ With rapid progress in NLP it is becoming easier to bootstrap a machine learning
 
 Models listed are curated for either pytorch or tensorflow because of their wide usage. 
 
-Note: `pytorch-transofmers`[https://github.com/huggingface/pytorch-transformers] is an awesome library which can be used to quickly infer/fine-tune from many pre-trained models in NLP. The pre-trained models from those are not included here.
+Note: [`pytorch-transofmers`](https://github.com/huggingface/pytorch-transformers) is an awesome library which can be used to quickly infer/fine-tune from many pre-trained models in NLP. The pre-trained models from those are not included here.
 
 ## Contents
 
