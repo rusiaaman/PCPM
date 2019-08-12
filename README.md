@@ -48,7 +48,9 @@ Fairseq (multiple models) | https://github.com/pytorch/fairseq/blob/master/examp
 ## Sentiment
 Name     |      Link      |  Trained On | Training script|
 -------|----------|:--------------:|------------:|
+Nvidia sentiment-discovery | https://github.com/NVIDIA/sentiment-discovery#pretrained-models | [SST](#sst), [imdb](#IMDB), [Semeval-2018-tweet-emotion](#Semeval2018te) | https://github.com/NVIDIA/sentiment-discovery |
 MT-DNN Sentiment | https://drive.google.com/open?id=1-ld8_WpdQVDjPeYhb3AK8XYLGlZEbs-l | [SST](#sst) | https://github.com/namisan/mt-dnn |
+
 
 ## Reading Comprehension
 ### SQUAD 1.1
@@ -102,6 +104,12 @@ https://github.com/soskek/bookcorpus
 ## Sentiment
 ### SST
 Stanford sentiment tree bank https://nlp.stanford.edu/sentiment/index.html. One of the [Glue](#glue) tasks.
+
+### IMDB
+IMDB movie review dataset used for sentiment classification http://ai.stanford.edu/~amaas/data/sentiment
+
+### Semeval2018te
+Semeval 2018 tweet emotion dataset https://competitions.codalab.org/competitions/17751
 
 ## Glue
 
