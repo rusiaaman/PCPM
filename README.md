@@ -28,21 +28,23 @@ Transformer-xl |  https://github.com/kimiyoung/transformer-xl/tree/master/tf#obt
 GPT-2 | https://github.com/openai/gpt-2/blob/master/download_model.py | [`webtext`](#webtext) | https://github.com/nshepperd/gpt-2/ |
 Adaptive Inputs (fairseq) | https://github.com/pytorch/fairseq/blob/master/examples/language_model/README.md#pre-trained-models | [`lm1b`](#lm1b) | https://github.com/pytorch/fairseq/blob/master/examples/language_model/README.md
 
-## Permutation lanugage modelling - XLNet
+## Permutation lanugage modelling Based - XLNet
 
 Name     |      Link      |  Trained On | Training script|
 -------|----------|:--------------:|------------:|
 XLnet | https://github.com/zihangdai/xlnet/#released-models | [`booksCorpus`](booksCorpus)+[`English Wikipedia`](english-wikipedia)+[`Giga5`](https://catalog.ldc.upenn.edu/LDC2011T07)+[`ClueWeb 2012-B`](https://lemurproject.org/clueweb12/)+[`Common Crawl`](#common-crawl) | https://github.com/zihangdai/xlnet/
 
-## Masked Language Modelling - Bert
+## Masked Language Modelling Based - Bert
 Name     |      Link      |  Trained On | Training script|
 -------|----------|:--------------:|------------:|
-BERT | https://github.com/google-research/bert/ | [booksCorpus](booksCorpus)+[English Wikipedia](english-wikipedia) | https://github.com/google-research/bert/ (tf) https://github.com/huggingface/pytorch-pretrained-BERT (pytorch) |
+RoBERTa | https://github.com/pytorch/fairseq/tree/master/examples/roberta#pre-trained-models | [booksCorpus](booksCorpus)+CC-N EWS+[OpenWebText](openwebtext)+CommonCrawl-Stories |https://github.com/huggingface/transformers |
+BERT | https://github.com/google-research/bert/ | [booksCorpus](booksCorpus)+[English Wikipedia](english-wikipedia) | https://github.com/huggingface/transformers|
 MT-DNN |   https://mrc.blob.core.windows.net/mt-dnn-model/mt_dnn_base.pt (https://github.com/namisan/mt-dnn/blob/master/download.sh)| [glue](glue)  | https://github.com/namisan/mt-dnn |
 
 ## Machine Translation
 Name     |      Link      |  Trained On | Training script|
 -------|----------|:--------------:|------------:|
+OpenNMT | http://opennmt.net/Models-py/ (pytorch) http://opennmt.net/Models-tf/ (tensorflow) | English-German | https://github.com/OpenNMT/OpenNMT-py |
 Fairseq (multiple models) | https://github.com/pytorch/fairseq/blob/master/examples/translation/README.md#pre-trained-models | WMT14 English-French, WMT16 English-German | https://github.com/pytorch/fairseq/blob/master/examples/translation/README.md
 
 ## Sentiment
@@ -56,7 +58,14 @@ MT-DNN Sentiment | https://drive.google.com/open?id=1-ld8_WpdQVDjPeYhb3AK8XYLGlZ
 ### SQUAD 1.1
 Rank | Name     |      Link      | Training script|
 -------|-------|----------|:--------------:|
-49 | BiDaf | https://s3-us-west-2.amazonaws.com/allennlp/models/bidaf-model-2017.09.15-charpad.tar.gz | https://github.com/allenai/allennlp |
+49 | BiDaf | https://s3-us-west-2.amazonaws.com/allennlp/models/bidaf-model-2017.09.15-charpad.tar.gz | https://github.com/allenai/allennlp | 
+
+## Summarization
+Model for English summarization
+
+Name     |      Link      |  Trained On | Training script|
+-------|-------|----------|:--------------:|
+OpenNMT | http://opennmt.net/Models-py/ | Gigaword standard | https://github.com/OpenNMT/OpenNMT-py |
 
 
 # Speech to Text
