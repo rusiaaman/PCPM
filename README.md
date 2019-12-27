@@ -71,6 +71,7 @@ OpenNMT | http://opennmt.net/Models-py/ | Gigaword standard | https://github.com
 # Speech to Text
 Name     |      Link      |  Trained On | Training script | 
 -------|----------|:--------------:|------------:|
+NeMo-quartznet | https://ngc.nvidia.com/catalog/models/nvidia:quartznet15x5 |  [librispeech](#librispeech),[mozilla-common-voice](#mozilla-common-voice) | https://github.com/NVIDIA/NeMo
 OpenSeq2Seq-Jasper | https://nvidia.github.io/OpenSeq2Seq/html/speech-recognition.html#models | [librispeech](#librispeech) | https://github.com/NVIDIA/OpenSeq2Seq
 Espnet | https://github.com/espnet/espnet#asr-results | [librispeech](#librispeech),Aishell,HKUST,TEDLIUM2 | https://github.com/espnet/espnet
 wav2letter++ | https://talonvoice.com/research/ | [librispeech](#librispeech) | https://github.com/facebookresearch/wav2letter
